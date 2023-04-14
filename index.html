@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="property-search">
+         <label for="location">Location:</label>
+             <select name="location" id="location"> 
+               <option value="all locatios">All locations</option> 
+               <option value="Kileleshwa">Kileleshwa</option>
+               <option value="Karen">Karen</option>
+               <option value="Kasarani">Kasarani</option>
+               <option value="Jamhuri">Jamhuri</option>
+               <option value="Utawala">Utawala</option>
+            </select>
+            <label for="price">Price:</label>
+             <input type="range" id="price" name="price" min="0" max="100000" step="1000">
+             <span id="price-output">$0</span>
+    
+    <label for="buy">Buy</label>
+    <input type="radio" id="buy" name="buy" value="buy">
+    <label for="rent">Rent</label>
+    <input type="radio" id="rent" name="rent" value="buy">
+    
+    <input type="submit" value="search">
+</form>
+<script src="index.js"></script>
+</body>
+</html>

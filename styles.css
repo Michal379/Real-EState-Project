@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+    font-family: sans-serif;
+}
+form{
+   max-width: 500px; 
+   margin: 0 auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+select, input[type="range"], input[type="radio"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom:20px;
+}
+input[type="submit"]{
+    background-color: #2196F3;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+input[type="submit"]:hover{
+    background-color: #0682e8;
+}

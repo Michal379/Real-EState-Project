@@ -1,0 +1,108 @@
+{
+    "locations":[
+        {
+            "name": "Kileleshwa",
+            "houses": [
+                { 
+                "type":"Mansion",
+                "price": 85000,
+                "address": "south street"
+            },
+            { 
+                "type":"2 bedroom",
+                "price": 30000,
+                "address": "West street"
+            },
+            { 
+                "type":"4 bedroom",
+                "price": 45000,
+                "address": "town center"
+            }
+            ]
+        },
+
+        {
+            "name": "Karen",
+            "houses": [
+                { 
+                "type":"Bungalow",
+                "price": 90000,
+                "address": "Eastern street"
+            },
+            { 
+                "type":"3 bedroom",
+                "price": 35000,
+                "address": "center street"
+            },
+            { 
+                "type":"1 bedroom",
+                "price": 18000,
+                "address": "bypass street"
+            }
+            ]
+        },
+
+        {
+            "name": "Kasarani",
+            "houses": [
+                { 
+                "type":"orchard",
+                "price": 55000,
+                "address": "bypass gardens"
+            },
+            { 
+                "type":"5 bedroom",
+                "price": 50000,
+                "address": "Western bypass"
+            },
+            { 
+                "type":"4 bedroom",
+                "price": 48000,
+                "address": "bypass drive"
+            }
+
+            ]
+        },
+        {
+            "name": "Jamhuri",
+            "houses": [
+                {
+                    "type": "coach",
+                    "price": "68000",
+                    "address": "Jamhuri West"
+                },
+                {
+                    "type": "1 bedroom",
+                    "price": "20000",
+                    "address": "Jamhuri town"
+                },
+                {
+                    "type": "3 bedroom",
+                    "price": "37000",
+                    "address": "Jamhuri"
+                }   
+            ]
+        },
+        {
+            "name": "Utawala",
+            "houses": [
+                {
+                   "type": "Hollies",
+                    "price": "71000",
+                    "address": "Utawala downtown"
+                },
+                {
+                    "type": "6 bedroom",
+                     "price": "55000",
+                     "address": "Utawala outstretch"
+                 },
+                 {
+                    "type": "3 bedroom",
+                     "price": "32000",
+                     "address": "Utawala "
+                 }
+
+            ]
+        }
+    ]
+}
