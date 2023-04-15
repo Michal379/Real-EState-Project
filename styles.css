@@ -1,5 +1,8 @@
 body{
-    background-color: gray;
+    background-image: url(house/download.jpeg);
+    justify-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
 }
 form{
